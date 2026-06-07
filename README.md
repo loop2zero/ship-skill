@@ -10,6 +10,17 @@ integration) and enforces the human checkpoints.
 Product-neutral: you bind three roles (**tracker / deploy-demo / docs target**) to
 your own stack at Stage 0. Works Full (team ceremony) or Lite (solo/personal).
 
+## Requirements (not turnkey)
+
+`ship` is a **conductor, not a toolbox** — installing it alone won't run anything. You need:
+
+- **[Superpowers](https://github.com/obra/superpowers)** skills installed (brainstorming, writing-plans, subagent-driven-development, TDD, requesting-code-review, verification-before-completion, finishing-a-development-branch, writing-skills).
+- Optionally **OpenSpec** for the contract / closeout track.
+- Your own **tracker / deploy-demo / docs** tools, bound at **Stage 0** (e.g. Linear / Jira / GitHub Issues; Vercel / Fly / local runtime; a docs dir / wiki).
+- A way to run a **different-engine review** for Stage 5.0 (e.g. the `codex` CLI when your primary agent is Claude).
+
+Missing a delegate? Stage 0 makes you name it and pick a fallback — it won't silently skip the gate.
+
 ## Why
 
 Two failure modes this skill is hardened against, both learned the hard way:
